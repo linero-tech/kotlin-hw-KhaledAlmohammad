@@ -3,8 +3,9 @@ package lms_126
 fun task2(): String {
 
     return """ 
-       Given area A
-       original length L and original width W:
-       newLength = sqrt(L*A/W) and newWidth = sqrt(W*A/L)   // keeping the L/W ratio fixed
-    """
+        INPUT base of rectangle
+        INPUT height of rectangle
+        Calculate area by multiplying base times height
+        OUTPUT area of rectangle
+     """
 }
