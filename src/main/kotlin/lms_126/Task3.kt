@@ -6,6 +6,6 @@ fun task3(): String {
         INPUT height of triangle
         INPUT base of triangle
         Calculate area = 0.5 * base * height
-        OUTPUT area of triangle
+        Print area of triangle
     """
 }
