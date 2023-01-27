@@ -6,6 +6,6 @@ fun task2(): String {
         INPUT base of rectangle
         INPUT height of rectangle
         Calculate area by multiplying base times height
-        OUTPUT area of the rectangle
+        Output area of the rectangle
     """
 }
