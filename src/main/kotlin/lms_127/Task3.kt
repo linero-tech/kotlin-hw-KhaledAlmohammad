@@ -1,13 +1,12 @@
 package lms_127
 
 fun task3(radius: Double): Double {
-    return
+    val pi = 3.1416
+    val result = 2 * pi * radius
+    return result
 
-    val radius= 2.0
-    val pi= 3.1416
-    val perimeterOfCircle= 2 * pi * radius
-    println("result is $perimeterOfCircle")
 }
 fun main() {
-    task3()
+    val answer = task3(radius = 2.0)
+    println (answer)
 }
