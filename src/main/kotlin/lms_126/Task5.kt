@@ -3,14 +3,10 @@ package lms_126
 fun task5(): String {
 
     return """
-        num = int(input("Please type in a number:"))
-        number_list = [i+1 for i in range(num)]
-
-        while number_list:
-            print(number_list.pop(0))
-            number_list.reverse()
-
-
-
+      For x is 1 to 8
+      INPUT dayOfTheWeek = dayOfTheWeek ( "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday" )  
+      Append the number to the day of the week, Monday is 1
+      If x is 1
+      Output "Monday"
     """
 }
