@@ -10,8 +10,8 @@ fun task5(valueForA: Int, valueForB: Int): Pair<Int, Int> {
 }
 fun main() {
     val answer = task5(1, 2)
-    println ("pair $answer")
+    println (answer)
     val answerAfterSwap = task5(2, 1)
-    println ("pair $answerAfterSwap")
+    println (answerAfterSwap)
 
 }
