@@ -5,8 +5,13 @@ fun task5(valueForA: Int, valueForB: Int): Pair<Int, Int> {
     var a = valueForA
     var b = valueForB
 
-    TODO("Your solutions goes in here.")
-
     // Do not erase or change this statement
     return Pair(a, b)
+}
+fun main() {
+    val answer = task5(1, 2)
+    println ("pair $answer")
+    val answerAfterSwap = task5(2, 1)
+    println ("pair $answerAfterSwap")
+
 }
