@@ -9,9 +9,10 @@ fun task5(valueForA: Int, valueForB: Int): Pair<Int, Int> {
     return Pair(a, b)
 }
 fun main() {
-    val answer = task5(1, 2)
-    println (answer)
-    val answerAfterSwap = task5(2, 1)
+
+   val answer = task5(1, 2)
+   println (answer)
+  val answerAfterSwap = task5(2, 1)
     println (answerAfterSwap)
 
 }
