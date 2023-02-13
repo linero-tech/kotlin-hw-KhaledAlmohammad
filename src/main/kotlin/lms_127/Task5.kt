@@ -4,19 +4,18 @@ fun task5(valueForA: Int, valueForB: Int): Pair<Int, Int> {
     // Do not change or delete these variables
     var a = valueForA
     var b = valueForB
+    a  = valueForB
+    b = valueForA
+
 
 
     // Do not erase or change this statement
     return Pair(a, b)
 }
 fun main() {
-   var a = 1
-    a = 2
-    var b = 2
-    b = 1
-    val answer = task5(1, 2)
-    println("$answer")
-    val answerAfterSwap = task5(2, 1)
-    println("$answerAfterSwap")
-    
+    val pairAfterSwap = task5(2, 1)
+    println("$pairAfterSwap")
+    val pair = task5(1, 2)
+    println("$pair")
+
 }
