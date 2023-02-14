@@ -1,7 +1,7 @@
 package lms_127
 
 fun task6(base1: Double, base2: Double, height: Double): Double {
-    val result = 0.5 * ( base1 + base2) / height
+    val result = 0.5 * ( base1 + base2) * height
     return result
 }
 fun main() {
