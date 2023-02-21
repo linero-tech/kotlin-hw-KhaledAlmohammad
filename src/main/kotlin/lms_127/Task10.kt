@@ -1,23 +1,19 @@
 package lms_127
 
 fun task10_1(assessments: String): Int {
-    val result = assessments.length
-    return result
+    return assessments.length
 }
 
 fun task10_2(assessments: String): Char {
-    val result = assessments.get(3)
-    return result
+    return assessments[3]
 }
 
 fun task10_3(assessments: String): Char {
-val result = assessments.get(assessments.length / 2)
-    return result
+    return assessments[assessments.length / 2]
 }
 
 fun task10_4(assessments: String): String {
-    val result = assessments.substring(0, 3)
-    return result
+    return assessments.substring(0, 3)
 }
 fun main() {
 
