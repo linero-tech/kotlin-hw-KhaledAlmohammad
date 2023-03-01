@@ -1,10 +1,12 @@
 package lms_129
 
 fun task2(number: Int): Boolean {
-    val result = number > 1 && number % number ==0 && number % 1 == 0 && number % 2 != 0
+    var result = true
+    for(i in 2..number/2) {
+        if (number % i ==0){
+            result = false
+        }
+    }
     return result
 }
-fun main(){
-    val answer = task2(4)
-    println("$answer")
-}
+fun main() = println(task2(5))
